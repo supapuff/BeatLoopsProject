@@ -6,6 +6,7 @@
 //  Copyright (c) 2013 Adam Wilsby Wahlberg. All rights reserved.
 //
 // Mitt försök att göra en musik app till iphone!!
+// Test för att se om Git fungerar och uppdaterar!!
 
 #import "MAppDelegate.h"
 
