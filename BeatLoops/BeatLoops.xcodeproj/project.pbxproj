@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8417626016CE37080033CFE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8417625F16CE37080033CFE4 /* UIKit.framework */; };
+		8417626216CE37080033CFE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8417626116CE37080033CFE4 /* Foundation.framework */; };
+		8417626416CE37080033CFE4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8417626316CE37080033CFE4 /* CoreGraphics.framework */; };
+		8417626A16CE37080033CFE4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8417626816CE37080033CFE4 /* InfoPlist.strings */; };
+		8417626C16CE37080033CFE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8417626B16CE37080033CFE4 /* main.m */; };
+		8417627016CE37080033CFE4 /* MAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8417626F16CE37080033CFE4 /* MAppDelegate.m */; };
+		8417627216CE37080033CFE4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8417627116CE37080033CFE4 /* Default.png */; };
+		8417627416CE37080033CFE4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8417627316CE37080033CFE4 /* Default@2x.png */; };
+		8417627616CE37080033CFE4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8417627516CE37080033CFE4 /* Default-568h@2x.png */; };
+		8417627916CE37080033CFE4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8417627716CE37080033CFE4 /* MainStoryboard.storyboard */; };
+		8417627C16CE37080033CFE4 /* MViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8417627B16CE37080033CFE4 /* MViewController.m */; };
+		8417628416CE37090033CFE4 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8417628316CE37090033CFE4 /* SenTestingKit.framework */; };
+		8417628516CE37090033CFE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8417625F16CE37080033CFE4 /* UIKit.framework */; };
+		8417628616CE37090033CFE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8417626116CE37080033CFE4 /* Foundation.framework */; };
+		8417628E16CE37090033CFE4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8417628C16CE37090033CFE4 /* InfoPlist.strings */; };
+		8417629116CE37090033CFE4 /* BeatLoopsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8417629016CE37090033CFE4 /* BeatLoopsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8417628716CE37090033CFE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8417625216CE37080033CFE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8417625A16CE37080033CFE4;
+			remoteInfo = BeatLoops;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8417625B16CE37080033CFE4 /* BeatLoops.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeatLoops.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8417625F16CE37080033CFE4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8417626116CE37080033CFE4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8417626316CE37080033CFE4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8417626716CE37080033CFE4 /* BeatLoops-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BeatLoops-Info.plist"; sourceTree = "<group>"; };
+		8417626916CE37080033CFE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8417626B16CE37080033CFE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8417626D16CE37080033CFE4 /* BeatLoops-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BeatLoops-Prefix.pch"; sourceTree = "<group>"; };
+		8417626E16CE37080033CFE4 /* MAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAppDelegate.h; sourceTree = "<group>"; };
+		8417626F16CE37080033CFE4 /* MAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAppDelegate.m; sourceTree = "<group>"; };
+		8417627116CE37080033CFE4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8417627316CE37080033CFE4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8417627516CE37080033CFE4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8417627816CE37080033CFE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		8417627A16CE37080033CFE4 /* MViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MViewController.h; sourceTree = "<group>"; };
+		8417627B16CE37080033CFE4 /* MViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MViewController.m; sourceTree = "<group>"; };
+		8417628216CE37090033CFE4 /* BeatLoopsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeatLoopsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8417628316CE37090033CFE4 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		8417628B16CE37090033CFE4 /* BeatLoopsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BeatLoopsTests-Info.plist"; sourceTree = "<group>"; };
+		8417628D16CE37090033CFE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8417628F16CE37090033CFE4 /* BeatLoopsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeatLoopsTests.h; sourceTree = "<group>"; };
+		8417629016CE37090033CFE4 /* BeatLoopsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeatLoopsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8417625816CE37080033CFE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8417626016CE37080033CFE4 /* UIKit.framework in Frameworks */,
+				8417626216CE37080033CFE4 /* Foundation.framework in Frameworks */,
+				8417626416CE37080033CFE4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8417627E16CE37080033CFE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8417628416CE37090033CFE4 /* SenTestingKit.framework in Frameworks */,
+				8417628516CE37090033CFE4 /* UIKit.framework in Frameworks */,
+				8417628616CE37090033CFE4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8417625016CE37080033CFE4 = {
+			isa = PBXGroup;
+			children = (
+				8417626516CE37080033CFE4 /* BeatLoops */,
+				8417628916CE37090033CFE4 /* BeatLoopsTests */,
+				8417625E16CE37080033CFE4 /* Frameworks */,
+				8417625C16CE37080033CFE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8417625C16CE37080033CFE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8417625B16CE37080033CFE4 /* BeatLoops.app */,
+				8417628216CE37090033CFE4 /* BeatLoopsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8417625E16CE37080033CFE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8417625F16CE37080033CFE4 /* UIKit.framework */,
+				8417626116CE37080033CFE4 /* Foundation.framework */,
+				8417626316CE37080033CFE4 /* CoreGraphics.framework */,
+				8417628316CE37090033CFE4 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8417626516CE37080033CFE4 /* BeatLoops */ = {
+			isa = PBXGroup;
+			children = (
+				8417626E16CE37080033CFE4 /* MAppDelegate.h */,
+				8417626F16CE37080033CFE4 /* MAppDelegate.m */,
+				8417627716CE37080033CFE4 /* MainStoryboard.storyboard */,
+				8417627A16CE37080033CFE4 /* MViewController.h */,
+				8417627B16CE37080033CFE4 /* MViewController.m */,
+				8417626616CE37080033CFE4 /* Supporting Files */,
+			);
+			path = BeatLoops;
+			sourceTree = "<group>";
+		};
+		8417626616CE37080033CFE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8417626716CE37080033CFE4 /* BeatLoops-Info.plist */,
+				8417626816CE37080033CFE4 /* InfoPlist.strings */,
+				8417626B16CE37080033CFE4 /* main.m */,
+				8417626D16CE37080033CFE4 /* BeatLoops-Prefix.pch */,
+				8417627116CE37080033CFE4 /* Default.png */,
+				8417627316CE37080033CFE4 /* Default@2x.png */,
+				8417627516CE37080033CFE4 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8417628916CE37090033CFE4 /* BeatLoopsTests */ = {
+			isa = PBXGroup;
+			children = (
+				8417628F16CE37090033CFE4 /* BeatLoopsTests.h */,
+				8417629016CE37090033CFE4 /* BeatLoopsTests.m */,
+				8417628A16CE37090033CFE4 /* Supporting Files */,
+			);
+			path = BeatLoopsTests;
+			sourceTree = "<group>";
+		};
+		8417628A16CE37090033CFE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8417628B16CE37090033CFE4 /* BeatLoopsTests-Info.plist */,
+				8417628C16CE37090033CFE4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8417625A16CE37080033CFE4 /* BeatLoops */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8417629416CE37090033CFE4 /* Build configuration list for PBXNativeTarget "BeatLoops" */;
+			buildPhases = (
+				8417625716CE37080033CFE4 /* Sources */,
+				8417625816CE37080033CFE4 /* Frameworks */,
+				8417625916CE37080033CFE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeatLoops;
+			productName = BeatLoops;
+			productReference = 8417625B16CE37080033CFE4 /* BeatLoops.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8417628116CE37080033CFE4 /* BeatLoopsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8417629716CE37090033CFE4 /* Build configuration list for PBXNativeTarget "BeatLoopsTests" */;
+			buildPhases = (
+				8417627D16CE37080033CFE4 /* Sources */,
+				8417627E16CE37080033CFE4 /* Frameworks */,
+				8417627F16CE37080033CFE4 /* Resources */,
+				8417628016CE37080033CFE4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8417628816CE37090033CFE4 /* PBXTargetDependency */,
+			);
+			name = BeatLoopsTests;
+			productName = BeatLoopsTests;
+			productReference = 8417628216CE37090033CFE4 /* BeatLoopsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8417625216CE37080033CFE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = M;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Adam Wilsby Wahlberg";
+			};
+			buildConfigurationList = 8417625516CE37080033CFE4 /* Build configuration list for PBXProject "BeatLoops" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8417625016CE37080033CFE4;
+			productRefGroup = 8417625C16CE37080033CFE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8417625A16CE37080033CFE4 /* BeatLoops */,
+				8417628116CE37080033CFE4 /* BeatLoopsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8417625916CE37080033CFE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8417626A16CE37080033CFE4 /* InfoPlist.strings in Resources */,
+				8417627216CE37080033CFE4 /* Default.png in Resources */,
+				8417627416CE37080033CFE4 /* Default@2x.png in Resources */,
+				8417627616CE37080033CFE4 /* Default-568h@2x.png in Resources */,
+				8417627916CE37080033CFE4 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8417627F16CE37080033CFE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8417628E16CE37090033CFE4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8417628016CE37080033CFE4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8417625716CE37080033CFE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8417626C16CE37080033CFE4 /* main.m in Sources */,
+				8417627016CE37080033CFE4 /* MAppDelegate.m in Sources */,
+				8417627C16CE37080033CFE4 /* MViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8417627D16CE37080033CFE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8417629116CE37090033CFE4 /* BeatLoopsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8417628816CE37090033CFE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8417625A16CE37080033CFE4 /* BeatLoops */;
+			targetProxy = 8417628716CE37090033CFE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8417626816CE37080033CFE4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8417626916CE37080033CFE4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8417627716CE37080033CFE4 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8417627816CE37080033CFE4 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		8417628C16CE37090033CFE4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8417628D16CE37090033CFE4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8417629216CE37090033CFE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8417629316CE37090033CFE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8417629516CE37090033CFE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BeatLoops/BeatLoops-Prefix.pch";
+				INFOPLIST_FILE = "BeatLoops/BeatLoops-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8417629616CE37090033CFE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BeatLoops/BeatLoops-Prefix.pch";
+				INFOPLIST_FILE = "BeatLoops/BeatLoops-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8417629816CE37090033CFE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BeatLoops.app/BeatLoops";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BeatLoops/BeatLoops-Prefix.pch";
+				INFOPLIST_FILE = "BeatLoopsTests/BeatLoopsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8417629916CE37090033CFE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BeatLoops.app/BeatLoops";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BeatLoops/BeatLoops-Prefix.pch";
+				INFOPLIST_FILE = "BeatLoopsTests/BeatLoopsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8417625516CE37080033CFE4 /* Build configuration list for PBXProject "BeatLoops" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8417629216CE37090033CFE4 /* Debug */,
+				8417629316CE37090033CFE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8417629416CE37090033CFE4 /* Build configuration list for PBXNativeTarget "BeatLoops" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8417629516CE37090033CFE4 /* Debug */,
+				8417629616CE37090033CFE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8417629716CE37090033CFE4 /* Build configuration list for PBXNativeTarget "BeatLoopsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8417629816CE37090033CFE4 /* Debug */,
+				8417629916CE37090033CFE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8417625216CE37080033CFE4 /* Project object */;
+}
