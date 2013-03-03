@@ -1,26 +1,184 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2519" systemVersion="12A206j" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2844" systemVersion="11G63b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1856"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1930"/>
     </dependencies>
     <scenes>
-        <!--class Prefix:identifier View Controller-->
+        <!--View Controller-->
         <scene sceneID="5">
             <objects>
                 <viewController id="2" customClass="MViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3">
                         <rect key="frame" x="0.0" y="20" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="Fire-Heart-Wallpaper-HD.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="iZK-WH-hIE">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="330" id="qcI-TE-x2Y"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="iZK-WH-hIE" firstAttribute="top" secondItem="3" secondAttribute="top" type="default" id="6gW-M7-9xE"/>
+                            <constraint firstItem="iZK-WH-hIE" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="aBv-vW-h3Z"/>
+                            <constraint firstItem="iZK-WH-hIE" firstAttribute="bottom" secondItem="3" secondAttribute="bottom" type="default" id="khA-Ln-gsb"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="107" y="70"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="IWx-Df-rzO">
+            <objects>
+                <viewController id="g9E-mf-9e8" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7OR-u1-Ahl">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="Fire-Heart-Wallpaper-HD.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="EWW-h7-gke">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="330" id="aAs-bs-zmc"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5aE-3n-Gh9">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="129" id="2mB-na-sgp"/>
+                                    <constraint firstAttribute="height" constant="110" id="rKZ-by-1oB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2E8-MO-DE4">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="54" id="6F2-BV-Qyz"/>
+                                    <constraint firstAttribute="width" constant="113" id="zTH-6G-OQU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Rec">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zB0-HD-B0m">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="110" id="gfC-9y-wxu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rkO-rf-dsW">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RBx-YO-aNk">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FF4-nf-Exs">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="129" id="WIA-Kh-Y0u"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="idc-jY-Cwa">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="110" id="3ym-4e-Dtz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="EWW-h7-gke" firstAttribute="trailing" secondItem="7OR-u1-Ahl" secondAttribute="trailing" type="default" id="5fC-8s-CCZ"/>
+                            <constraint firstAttribute="bottom" secondItem="zB0-HD-B0m" secondAttribute="bottom" constant="80" id="5mX-nV-1sW"/>
+                            <constraint firstItem="2E8-MO-DE4" firstAttribute="centerX" secondItem="7OR-u1-Ahl" secondAttribute="centerX" type="default" id="GQp-rK-TvU"/>
+                            <constraint firstAttribute="trailing" secondItem="FF4-nf-Exs" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="JTu-Ai-xBd"/>
+                            <constraint firstItem="5aE-3n-Gh9" firstAttribute="bottom" secondItem="FF4-nf-Exs" secondAttribute="bottom" type="default" id="NUq-hi-edv"/>
+                            <constraint firstItem="FF4-nf-Exs" firstAttribute="leading" secondItem="RBx-YO-aNk" secondAttribute="leading" type="default" id="Oxw-2b-HTp"/>
+                            <constraint firstItem="5aE-3n-Gh9" firstAttribute="trailing" secondItem="idc-jY-Cwa" secondAttribute="trailing" type="default" id="Qhk-s8-cek"/>
+                            <constraint firstAttribute="trailing" secondItem="RBx-YO-aNk" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="SLb-vr-D9W"/>
+                            <constraint firstItem="FF4-nf-Exs" firstAttribute="top" secondItem="7OR-u1-Ahl" secondAttribute="top" constant="20" symbolic="YES" type="default" id="dCf-My-EhV"/>
+                            <constraint firstItem="EWW-h7-gke" firstAttribute="bottom" secondItem="7OR-u1-Ahl" secondAttribute="bottom" type="default" id="eR9-eY-FuK"/>
+                            <constraint firstItem="idc-jY-Cwa" firstAttribute="bottom" secondItem="RBx-YO-aNk" secondAttribute="bottom" type="default" id="fSM-eD-upj"/>
+                            <constraint firstItem="rkO-rf-dsW" firstAttribute="bottom" secondItem="zB0-HD-B0m" secondAttribute="bottom" type="default" id="gCW-H8-v2j"/>
+                            <constraint firstAttribute="trailing" secondItem="rkO-rf-dsW" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="h7p-Fs-jPI"/>
+                            <constraint firstItem="5aE-3n-Gh9" firstAttribute="leading" secondItem="7OR-u1-Ahl" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="ovD-i2-Nj1"/>
+                            <constraint firstItem="EWW-h7-gke" firstAttribute="top" secondItem="7OR-u1-Ahl" secondAttribute="top" type="default" id="pCl-ml-xre"/>
+                            <constraint firstItem="zB0-HD-B0m" firstAttribute="trailing" secondItem="idc-jY-Cwa" secondAttribute="trailing" type="default" id="psf-2e-v1e"/>
+                            <constraint firstItem="idc-jY-Cwa" firstAttribute="top" secondItem="7OR-u1-Ahl" secondAttribute="top" constant="143" id="qsH-Yh-Dg5"/>
+                            <constraint firstItem="idc-jY-Cwa" firstAttribute="leading" secondItem="7OR-u1-Ahl" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="siS-tG-R1g"/>
+                            <constraint firstItem="rkO-rf-dsW" firstAttribute="leading" secondItem="RBx-YO-aNk" secondAttribute="leading" type="default" id="vMs-SJ-o0z"/>
+                            <constraint firstItem="idc-jY-Cwa" firstAttribute="top" secondItem="RBx-YO-aNk" secondAttribute="top" type="default" id="vpX-Ec-kRa"/>
+                            <constraint firstAttribute="bottom" secondItem="2E8-MO-DE4" secondAttribute="bottom" constant="13" id="w17-KZ-g8p"/>
+                            <constraint firstItem="rkO-rf-dsW" firstAttribute="top" secondItem="zB0-HD-B0m" secondAttribute="top" type="default" id="wuS-EG-mdC"/>
+                            <constraint firstItem="5aE-3n-Gh9" firstAttribute="top" secondItem="7OR-u1-Ahl" secondAttribute="top" constant="20" symbolic="YES" type="default" id="xIN-wH-FOb"/>
+                            <constraint firstItem="zB0-HD-B0m" firstAttribute="leading" secondItem="7OR-u1-Ahl" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="yhR-Xa-zMf"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x1C-1h-aZc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="490" y="-187"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Fire-Heart-Wallpaper-HD.jpg" width="1600" height="1200"/>
+    </resources>
+    <classes>
+        <class className="MViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MViewController.h"/>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4"/>
+        <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
 </document>

@@ -23,6 +23,8 @@
 		8417628616CE37090033CFE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8417626116CE37080033CFE4 /* Foundation.framework */; };
 		8417628E16CE37090033CFE4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8417628C16CE37090033CFE4 /* InfoPlist.strings */; };
 		8417629116CE37090033CFE4 /* BeatLoopsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8417629016CE37090033CFE4 /* BeatLoopsTests.m */; };
+		8417629C16CE3E3A0033CFE4 /* TapButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = 8417629B16CE3E3A0033CFE4 /* TapButtons.m */; };
+		84A0209916E3DE5D00120EF4 /* Fire-Heart-Wallpaper-HD.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A0209816E3DE5D00120EF4 /* Fire-Heart-Wallpaper-HD.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,9 @@
 		8417628D16CE37090033CFE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8417628F16CE37090033CFE4 /* BeatLoopsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeatLoopsTests.h; sourceTree = "<group>"; };
 		8417629016CE37090033CFE4 /* BeatLoopsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeatLoopsTests.m; sourceTree = "<group>"; };
+		8417629A16CE3E3A0033CFE4 /* TapButtons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapButtons.h; sourceTree = "<group>"; };
+		8417629B16CE3E3A0033CFE4 /* TapButtons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapButtons.m; sourceTree = "<group>"; };
+		84A0209816E3DE5D00120EF4 /* Fire-Heart-Wallpaper-HD.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Fire-Heart-Wallpaper-HD.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +92,7 @@
 		8417625016CE37080033CFE4 = {
 			isa = PBXGroup;
 			children = (
+				84A0209616E3DDBD00120EF4 /* Pics */,
 				8417626516CE37080033CFE4 /* BeatLoops */,
 				8417628916CE37090033CFE4 /* BeatLoopsTests */,
 				8417625E16CE37080033CFE4 /* Frameworks */,
@@ -120,6 +126,8 @@
 				8417626E16CE37080033CFE4 /* MAppDelegate.h */,
 				8417626F16CE37080033CFE4 /* MAppDelegate.m */,
 				8417627716CE37080033CFE4 /* MainStoryboard.storyboard */,
+				8417629A16CE3E3A0033CFE4 /* TapButtons.h */,
+				8417629B16CE3E3A0033CFE4 /* TapButtons.m */,
 				8417627A16CE37080033CFE4 /* MViewController.h */,
 				8417627B16CE37080033CFE4 /* MViewController.m */,
 				8417626616CE37080033CFE4 /* Supporting Files */,
@@ -158,6 +166,15 @@
 				8417628C16CE37090033CFE4 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84A0209616E3DDBD00120EF4 /* Pics */ = {
+			isa = PBXGroup;
+			children = (
+				84A0209816E3DE5D00120EF4 /* Fire-Heart-Wallpaper-HD.jpg */,
+			);
+			name = Pics;
+			path = BeatLoops;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +254,7 @@
 				8417627416CE37080033CFE4 /* Default@2x.png in Resources */,
 				8417627616CE37080033CFE4 /* Default-568h@2x.png in Resources */,
 				8417627916CE37080033CFE4 /* MainStoryboard.storyboard in Resources */,
+				84A0209916E3DE5D00120EF4 /* Fire-Heart-Wallpaper-HD.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +292,7 @@
 				8417626C16CE37080033CFE4 /* main.m in Sources */,
 				8417627016CE37080033CFE4 /* MAppDelegate.m in Sources */,
 				8417627C16CE37080033CFE4 /* MViewController.m in Sources */,
+				8417629C16CE3E3A0033CFE4 /* TapButtons.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,6 +467,7 @@
 				8417629616CE37090033CFE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8417629716CE37090033CFE4 /* Build configuration list for PBXNativeTarget "BeatLoopsTests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +476,7 @@
 				8417629916CE37090033CFE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
