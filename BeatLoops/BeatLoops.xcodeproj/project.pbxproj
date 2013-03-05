@@ -32,6 +32,9 @@
 		84A020B816E4F6BF00120EF4 /* GuitarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A020B716E4F6BF00120EF4 /* GuitarViewController.m */; };
 		84A020BB16E4F70A00120EF4 /* PianoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A020BA16E4F70A00120EF4 /* PianoViewController.m */; };
 		84A020BE16E4F74500120EF4 /* DrumsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A020BD16E4F74500120EF4 /* DrumsViewController.m */; };
+		84A020C416E535DD00120EF4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A020C316E535DD00120EF4 /* AVFoundation.framework */; };
+		84A020CB16E542FD00120EF4 /* audio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A020CA16E542FD00120EF4 /* audio.mp3 */; };
+		84A020CD16E5600900120EF4 /* 606.wav in Resources */ = {isa = PBXBuildFile; fileRef = 84A020CC16E5600900120EF4 /* 606.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,9 +80,12 @@
 		84A020B616E4F6BF00120EF4 /* GuitarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuitarViewController.h; sourceTree = "<group>"; };
 		84A020B716E4F6BF00120EF4 /* GuitarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuitarViewController.m; sourceTree = "<group>"; };
 		84A020B916E4F70A00120EF4 /* PianoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PianoViewController.h; sourceTree = "<group>"; };
-		84A020BA16E4F70A00120EF4 /* PianoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PianoViewController.m; sourceTree = "<group>"; };
+		84A020BA16E4F70A00120EF4 /* PianoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PianoViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		84A020BC16E4F74500120EF4 /* DrumsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrumsViewController.h; sourceTree = "<group>"; };
 		84A020BD16E4F74500120EF4 /* DrumsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrumsViewController.m; sourceTree = "<group>"; };
+		84A020C316E535DD00120EF4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		84A020CA16E542FD00120EF4 /* audio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio.mp3; sourceTree = "<group>"; };
+		84A020CC16E5600900120EF4 /* 606.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 606.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84A020C416E535DD00120EF4 /* AVFoundation.framework in Frameworks */,
 				8417626016CE37080033CFE4 /* UIKit.framework in Frameworks */,
 				8417626216CE37080033CFE4 /* Foundation.framework in Frameworks */,
 				8417626416CE37080033CFE4 /* CoreGraphics.framework in Frameworks */,
@@ -109,6 +116,7 @@
 		8417625016CE37080033CFE4 = {
 			isa = PBXGroup;
 			children = (
+				84A020C316E535DD00120EF4 /* AVFoundation.framework */,
 				84A0209616E3DDBD00120EF4 /* Pics */,
 				8417626516CE37080033CFE4 /* BeatLoops */,
 				8417628916CE37090033CFE4 /* BeatLoopsTests */,
@@ -145,9 +153,9 @@
 				84A020BC16E4F74500120EF4 /* DrumsViewController.h */,
 				84A020BD16E4F74500120EF4 /* DrumsViewController.m */,
 				84A020B616E4F6BF00120EF4 /* GuitarViewController.h */,
+				84A020B716E4F6BF00120EF4 /* GuitarViewController.m */,
 				84A020B916E4F70A00120EF4 /* PianoViewController.h */,
 				84A020BA16E4F70A00120EF4 /* PianoViewController.m */,
-				84A020B716E4F6BF00120EF4 /* GuitarViewController.m */,
 				8417627716CE37080033CFE4 /* MainStoryboard.storyboard */,
 				8417629A16CE3E3A0033CFE4 /* TapButtons.h */,
 				8417629B16CE3E3A0033CFE4 /* TapButtons.m */,
@@ -161,6 +169,8 @@
 		8417626616CE37080033CFE4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				84A020CC16E5600900120EF4 /* 606.wav */,
+				84A020CA16E542FD00120EF4 /* audio.mp3 */,
 				8417626716CE37080033CFE4 /* BeatLoops-Info.plist */,
 				8417626816CE37080033CFE4 /* InfoPlist.strings */,
 				8417626B16CE37080033CFE4 /* main.m */,
@@ -286,6 +296,8 @@
 				84A020AD16E4CFE200120EF4 /* 20110322022306GarageBand_App.png in Resources */,
 				84A020AF16E4D21100120EF4 /* rockposter21.jpg in Resources */,
 				84A020B516E4D64C00120EF4 /* drums-icon.png in Resources */,
+				84A020CB16E542FD00120EF4 /* audio.mp3 in Resources */,
+				84A020CD16E5600900120EF4 /* 606.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface DrumsViewController : UIViewController
-
+- (IBAction)MagicCarp:(id)sender;
+    
+        
 @end

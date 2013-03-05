@@ -7,7 +7,22 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
-@interface PianoViewController : UIViewController
+int clicked;
+
+@interface PianoViewController : UIViewController {
+    AVAudioPlayer *audioPlayer;
+    IBOutlet UIButton *start;
+    IBOutlet UIButton *start1;
+}
+
+- (IBAction)play;
+- (IBAction)play1;
+
+
+
+
+
 
 @end
