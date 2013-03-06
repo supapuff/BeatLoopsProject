@@ -248,7 +248,6 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="TSV-ig-X7I" firstAttribute="leading" secondItem="1Da-m7-92f" secondAttribute="leading" type="default" id="1Fj-hZ-rJr"/>
-                            <constraint firstItem="GXN-1f-PXS" firstAttribute="top" secondItem="m5a-td-gwX" secondAttribute="top" type="default" id="32s-th-BoR"/>
                             <constraint firstItem="1Da-m7-92f" firstAttribute="trailing" secondItem="nI0-Ff-Mq0" secondAttribute="trailing" type="default" id="AvI-F7-LV1"/>
                             <constraint firstItem="kms-5S-gxw" firstAttribute="baseline" secondItem="gd0-2j-gZc" secondAttribute="baseline" type="default" id="CYT-89-hOU"/>
                             <constraint firstAttribute="bottom" secondItem="TSV-ig-X7I" secondAttribute="bottom" constant="10" id="EDG-nd-yrM"/>
@@ -261,6 +260,7 @@
                             <constraint firstItem="EUZ-Mh-kbM" firstAttribute="top" secondItem="m5a-td-gwX" secondAttribute="top" type="default" id="nMp-i7-VqP"/>
                             <constraint firstItem="kms-5S-gxw" firstAttribute="leading" secondItem="m5a-td-gwX" secondAttribute="leading" constant="81" id="oKd-9s-wE6"/>
                             <constraint firstItem="GXN-1f-PXS" firstAttribute="leading" secondItem="m5a-td-gwX" secondAttribute="leading" type="default" id="pmb-cR-eul"/>
+                            <constraint firstItem="GXN-1f-PXS" firstAttribute="top" secondItem="m5a-td-gwX" secondAttribute="top" constant="-1" id="qen-fM-Nsg"/>
                             <constraint firstItem="1Da-m7-92f" firstAttribute="leading" secondItem="nI0-Ff-Mq0" secondAttribute="leading" type="default" id="rPf-8h-OCe"/>
                             <constraint firstAttribute="bottom" secondItem="kms-5S-gxw" secondAttribute="bottom" constant="98" id="s9o-9b-2m0"/>
                             <constraint firstItem="1Da-m7-92f" firstAttribute="top" secondItem="nI0-Ff-Mq0" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="uQh-Fa-O6b"/>
@@ -383,11 +383,11 @@
                             <constraint firstItem="Oi5-kN-sOv" firstAttribute="top" secondItem="YTo-Ue-LSd" secondAttribute="top" type="default" id="YkQ-T1-c5K"/>
                             <constraint firstItem="bKc-RT-bEJ" firstAttribute="trailing" secondItem="DVb-3J-hUu" secondAttribute="trailing" type="default" id="bL8-1K-eIK"/>
                             <constraint firstItem="vyW-Sf-pSM" firstAttribute="baseline" secondItem="LYK-1u-AjM" secondAttribute="baseline" type="default" id="gjr-E2-Vfn"/>
-                            <constraint firstItem="DmR-pC-9z2" firstAttribute="top" secondItem="YTo-Ue-LSd" secondAttribute="top" type="default" id="hY3-kN-geN"/>
                             <constraint firstItem="DVb-3J-hUu" firstAttribute="top" secondItem="YTo-Ue-LSd" secondAttribute="top" constant="123" id="kek-iN-F6G"/>
                             <constraint firstItem="DmR-pC-9z2" firstAttribute="leading" secondItem="YTo-Ue-LSd" secondAttribute="leading" type="default" id="pj8-aN-dAb"/>
                             <constraint firstItem="vyW-Sf-pSM" firstAttribute="leading" secondItem="YTo-Ue-LSd" secondAttribute="leading" constant="59" id="uI8-bH-hqe"/>
                             <constraint firstAttribute="trailing" secondItem="LYK-1u-AjM" secondAttribute="trailing" constant="69" id="uab-wp-thj"/>
+                            <constraint firstItem="DmR-pC-9z2" firstAttribute="top" secondItem="YTo-Ue-LSd" secondAttribute="top" constant="-1" id="vZi-5C-Ny8"/>
                         </constraints>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
@@ -431,8 +431,8 @@
                         <constraints>
                             <constraint firstItem="BHg-L7-wNf" firstAttribute="leading" secondItem="3Ow-8u-Mfb" secondAttribute="leading" type="default" id="21U-By-rUH"/>
                             <constraint firstItem="jvI-Nw-mBP" firstAttribute="bottom" secondItem="3Ow-8u-Mfb" secondAttribute="bottom" type="default" id="4mS-ZI-kie"/>
-                            <constraint firstItem="BHg-L7-wNf" firstAttribute="top" secondItem="3Ow-8u-Mfb" secondAttribute="top" type="default" id="6HP-mx-EEW"/>
                             <constraint firstItem="jvI-Nw-mBP" firstAttribute="trailing" secondItem="3Ow-8u-Mfb" secondAttribute="trailing" type="default" id="WLh-fx-FW3"/>
+                            <constraint firstItem="BHg-L7-wNf" firstAttribute="top" secondItem="3Ow-8u-Mfb" secondAttribute="top" constant="-1" id="ZUE-Cc-5OM"/>
                             <constraint firstItem="jvI-Nw-mBP" firstAttribute="leading" secondItem="3Ow-8u-Mfb" secondAttribute="leading" type="default" id="jGj-K4-yD8"/>
                             <constraint firstItem="jvI-Nw-mBP" firstAttribute="top" secondItem="3Ow-8u-Mfb" secondAttribute="top" type="default" id="r6P-Hx-oXP"/>
                         </constraints>
@@ -451,46 +451,6 @@
         <image name="drums-icon.png" width="256" height="256"/>
         <image name="rockposter21.jpg" width="450" height="636"/>
     </resources>
-    <classes>
-        <class className="DrumsViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/DrumsViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="play"/>
-                <relationship kind="action" name="play1"/>
-                <relationship kind="action" name="playback"/>
-                <relationship kind="action" name="recordning"/>
-                <relationship kind="outlet" name="playButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="recButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="recStateLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="start" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="start1" candidateClass="UIButton"/>
-            </relationships>
-        </class>
-        <class className="GuitarViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/GuitarViewController.h"/>
-        </class>
-        <class className="MViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MViewController.h"/>
-        </class>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="PianoViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/PianoViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="play"/>
-                <relationship kind="action" name="play1"/>
-                <relationship kind="action" name="playAudio:"/>
-                <relationship kind="action" name="recordAudio:"/>
-                <relationship kind="action" name="stop:"/>
-                <relationship kind="outlet" name="playButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="recordButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="start" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="start1" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="stopButton" candidateClass="UIButton"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

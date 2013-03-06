@@ -35,9 +35,9 @@
 		84A020CD16E5600900120EF4 /* 606.wav in Resources */ = {isa = PBXBuildFile; fileRef = 84A020CC16E5600900120EF4 /* 606.wav */; };
 		84A020CF16E624D800120EF4 /* 26522.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A020CE16E624D800120EF4 /* 26522.png */; };
 		84A020D516E628EC00120EF4 /* 606snar.wav in Resources */ = {isa = PBXBuildFile; fileRef = 84A020D416E628EC00120EF4 /* 606snar.wav */; };
-		84A020DE16E74DE000120EF4 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A020DD16E74DE000120EF4 /* Storyboard.storyboard */; };
 		84A020E216E750BB00120EF4 /* 3272536-retro-microphone-black-background-isolated.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A020E116E750BB00120EF4 /* 3272536-retro-microphone-black-background-isolated.jpg */; };
 		84A020E516E7544800120EF4 /* AudioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A020E416E7544800120EF4 /* AudioViewController.m */; };
+		84A020F016E7768200120EF4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A020EE16E7768100120EF4 /* MainStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,10 +89,10 @@
 		84A020CE16E624D800120EF4 /* 26522.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 26522.png; sourceTree = "<group>"; };
 		84A020D016E624DE00120EF4 /* 26522.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 26522.png; sourceTree = "<group>"; };
 		84A020D416E628EC00120EF4 /* 606snar.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 606snar.wav; sourceTree = "<group>"; };
-		84A020DD16E74DE000120EF4 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		84A020E116E750BB00120EF4 /* 3272536-retro-microphone-black-background-isolated.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3272536-retro-microphone-black-background-isolated.jpg"; sourceTree = "<group>"; };
 		84A020E316E7544800120EF4 /* AudioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioViewController.h; sourceTree = "<group>"; };
 		84A020E416E7544800120EF4 /* AudioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioViewController.m; sourceTree = "<group>"; };
+		84A020EF16E7768200120EF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,11 +156,11 @@
 		8417626516CE37080033CFE4 /* BeatLoops */ = {
 			isa = PBXGroup;
 			children = (
+				84A020EE16E7768100120EF4 /* MainStoryboard.storyboard */,
 				8417626E16CE37080033CFE4 /* MAppDelegate.h */,
 				8417626F16CE37080033CFE4 /* MAppDelegate.m */,
 				84A020BC16E4F74500120EF4 /* DrumsViewController.h */,
 				84A020BD16E4F74500120EF4 /* DrumsViewController.m */,
-				84A020DD16E74DE000120EF4 /* Storyboard.storyboard */,
 				84A020E316E7544800120EF4 /* AudioViewController.h */,
 				84A020E416E7544800120EF4 /* AudioViewController.m */,
 				84A020B916E4F70A00120EF4 /* PianoViewController.h */,
@@ -310,8 +310,8 @@
 				84A020CD16E5600900120EF4 /* 606.wav in Resources */,
 				84A020CF16E624D800120EF4 /* 26522.png in Resources */,
 				84A020D516E628EC00120EF4 /* 606snar.wav in Resources */,
-				84A020DE16E74DE000120EF4 /* Storyboard.storyboard in Resources */,
 				84A020E216E750BB00120EF4 /* 3272536-retro-microphone-black-background-isolated.jpg in Resources */,
+				84A020F016E7768200120EF4 /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,6 +389,14 @@
 				8417628D16CE37090033CFE4 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		84A020EE16E7768100120EF4 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84A020EF16E7768200120EF4 /* en */,
+			);
+			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
