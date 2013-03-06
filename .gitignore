@@ -16,3 +16,9 @@ profile
 *.moved-aside
 DerivedData
 .idea/
+
+BeatLoops/BeatLoops/en.lproj/MainStoryboard.storyboard
+
+BeatLoops/BeatLoops/en.lproj/MainStoryboard.storyboard
+
+*.storyboard
