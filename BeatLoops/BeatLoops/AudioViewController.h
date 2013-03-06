@@ -1,13 +1,13 @@
 //
-//  GuitarViewController.h
+//  AudioViewController.h
 //  BeatLoops
 //
-//  Created by admin on 3/4/13.
+//  Created by admin on 3/6/13.
 //  Copyright (c) 2013 Adam Wilsby Wahlberg. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface GuitarViewController : UIViewController
+@interface AudioViewController : UIViewController
 
 @end

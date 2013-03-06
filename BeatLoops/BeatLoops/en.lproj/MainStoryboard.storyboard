@@ -178,7 +178,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nI0-Ff-Mq0">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="73" id="7N3-Sr-0iU"/>
+                                    <constraint firstAttribute="width" constant="58" id="AcT-Xk-bXw"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="start">
@@ -205,27 +205,75 @@
                                     <action selector="play1" destination="eVL-5i-Frq" eventType="touchDown" id="dYl-U2-PZY"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gd0-2j-gZc">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Record">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="recordAudio:" destination="eVL-5i-Frq" eventType="touchUpInside" id="r8x-S1-Npi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kms-5S-gxw">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Play">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playAudio:" destination="eVL-5i-Frq" eventType="touchUpInside" id="hY7-Rg-xcK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TSV-ig-X7I">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Stop">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="stop:" destination="eVL-5i-Frq" eventType="touchUpInside" id="MIA-wz-rsl"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="TSV-ig-X7I" firstAttribute="leading" secondItem="1Da-m7-92f" secondAttribute="leading" type="default" id="1Fj-hZ-rJr"/>
                             <constraint firstItem="GXN-1f-PXS" firstAttribute="top" secondItem="m5a-td-gwX" secondAttribute="top" type="default" id="32s-th-BoR"/>
-                            <constraint firstItem="1Da-m7-92f" firstAttribute="centerX" secondItem="EUZ-Mh-kbM" secondAttribute="centerX" type="default" id="5qa-sC-jat"/>
                             <constraint firstItem="1Da-m7-92f" firstAttribute="trailing" secondItem="nI0-Ff-Mq0" secondAttribute="trailing" type="default" id="AvI-F7-LV1"/>
+                            <constraint firstItem="kms-5S-gxw" firstAttribute="baseline" secondItem="gd0-2j-gZc" secondAttribute="baseline" type="default" id="CYT-89-hOU"/>
+                            <constraint firstAttribute="bottom" secondItem="TSV-ig-X7I" secondAttribute="bottom" constant="10" id="EDG-nd-yrM"/>
+                            <constraint firstAttribute="trailing" secondItem="gd0-2j-gZc" secondAttribute="trailing" constant="82" id="Pdw-Ru-pgL"/>
                             <constraint firstItem="EUZ-Mh-kbM" firstAttribute="leading" secondItem="m5a-td-gwX" secondAttribute="leading" type="default" id="SS9-tf-OlJ"/>
+                            <constraint firstItem="TSV-ig-X7I" firstAttribute="centerX" secondItem="EUZ-Mh-kbM" secondAttribute="centerX" type="default" id="Toe-Bh-dvV"/>
                             <constraint firstItem="nI0-Ff-Mq0" firstAttribute="top" secondItem="m5a-td-gwX" secondAttribute="top" constant="128" id="gzU-xf-s8O"/>
                             <constraint firstItem="EUZ-Mh-kbM" firstAttribute="trailing" secondItem="m5a-td-gwX" secondAttribute="trailing" type="default" id="k0b-ef-E7p"/>
                             <constraint firstItem="EUZ-Mh-kbM" firstAttribute="bottom" secondItem="m5a-td-gwX" secondAttribute="bottom" type="default" id="kYY-Eb-dRd"/>
                             <constraint firstItem="EUZ-Mh-kbM" firstAttribute="top" secondItem="m5a-td-gwX" secondAttribute="top" type="default" id="nMp-i7-VqP"/>
+                            <constraint firstItem="kms-5S-gxw" firstAttribute="leading" secondItem="m5a-td-gwX" secondAttribute="leading" constant="81" id="oKd-9s-wE6"/>
                             <constraint firstItem="GXN-1f-PXS" firstAttribute="leading" secondItem="m5a-td-gwX" secondAttribute="leading" type="default" id="pmb-cR-eul"/>
                             <constraint firstItem="1Da-m7-92f" firstAttribute="leading" secondItem="nI0-Ff-Mq0" secondAttribute="leading" type="default" id="rPf-8h-OCe"/>
+                            <constraint firstAttribute="bottom" secondItem="kms-5S-gxw" secondAttribute="bottom" constant="98" id="s9o-9b-2m0"/>
                             <constraint firstItem="1Da-m7-92f" firstAttribute="top" secondItem="nI0-Ff-Mq0" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="uQh-Fa-O6b"/>
                         </constraints>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
+                        <outlet property="playButton" destination="kms-5S-gxw" id="x5F-PN-WfZ"/>
+                        <outlet property="recordButton" destination="gd0-2j-gZc" id="n9g-dF-MaX"/>
                         <outlet property="start" destination="nI0-Ff-Mq0" id="toU-M3-dPX"/>
                         <outlet property="start1" destination="1Da-m7-92f" id="bOu-Ta-isC"/>
+                        <outlet property="stopButton" destination="TSV-ig-X7I" id="w98-RM-fJO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wGb-82-fQd" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -241,6 +289,37 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="rockposter21.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Oi5-kN-sOv"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bKc-RT-bEJ">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="start1">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="play1" destination="MUP-Gw-Wbg" eventType="touchDown" id="3Nk-Jq-GUI"/>
+                                    <action selector="play1" destination="eVL-5i-Frq" eventType="touchDown" id="hoB-Ny-DX3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DVb-3J-hUu">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="73" id="ryQ-ur-c3I"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="start">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="play" destination="MUP-Gw-Wbg" eventType="touchDown" id="1y2-IO-PGz"/>
+                                    <action selector="play" destination="eVL-5i-Frq" eventType="touchDown" id="vL1-pW-6Wi"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DmR-pC-9z2">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Back">
@@ -254,19 +333,72 @@
                                     <segue destination="2" kind="modal" modalTransitionStyle="crossDissolve" id="lLV-D9-2wG"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LYK-1u-AjM">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Rec">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="recordning" destination="MUP-Gw-Wbg" eventType="touchUpInside" id="6wB-qY-g69"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ccx-6T-jNt">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="VzI-2k-ldY"/>
+                                    <constraint firstAttribute="width" constant="115" id="e13-H0-nbv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vyW-Sf-pSM">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Play">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playback" destination="MUP-Gw-Wbg" eventType="touchUpInside" id="m8o-Bf-ucC"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="bottom" secondItem="vyW-Sf-pSM" secondAttribute="bottom" constant="107" id="2Xy-mR-5Bz"/>
+                            <constraint firstItem="bKc-RT-bEJ" firstAttribute="leading" secondItem="DVb-3J-hUu" secondAttribute="leading" type="default" id="5Nx-9k-LgS"/>
                             <constraint firstItem="Oi5-kN-sOv" firstAttribute="leading" secondItem="YTo-Ue-LSd" secondAttribute="leading" type="default" id="DHo-xb-ymm"/>
-                            <constraint firstItem="DmR-pC-9z2" firstAttribute="top" secondItem="YTo-Ue-LSd" secondAttribute="top" type="default" id="Ecv-dI-OYF"/>
+                            <constraint firstItem="ccx-6T-jNt" firstAttribute="top" secondItem="YTo-Ue-LSd" secondAttribute="top" constant="58" id="DRe-AU-vcF"/>
+                            <constraint firstItem="bKc-RT-bEJ" firstAttribute="top" secondItem="DVb-3J-hUu" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="HIL-oc-Jb3"/>
                             <constraint firstItem="Oi5-kN-sOv" firstAttribute="bottom" secondItem="YTo-Ue-LSd" secondAttribute="bottom" type="default" id="Lps-rR-oMK"/>
+                            <constraint firstItem="DVb-3J-hUu" firstAttribute="centerX" secondItem="Oi5-kN-sOv" secondAttribute="centerX" type="default" id="OWh-Ia-b6L"/>
                             <constraint firstItem="Oi5-kN-sOv" firstAttribute="trailing" secondItem="YTo-Ue-LSd" secondAttribute="trailing" type="default" id="RDQ-9B-BJb"/>
+                            <constraint firstAttribute="trailing" secondItem="ccx-6T-jNt" secondAttribute="trailing" constant="42" id="SUU-O2-ozG"/>
                             <constraint firstItem="Oi5-kN-sOv" firstAttribute="top" secondItem="YTo-Ue-LSd" secondAttribute="top" type="default" id="YkQ-T1-c5K"/>
+                            <constraint firstItem="bKc-RT-bEJ" firstAttribute="trailing" secondItem="DVb-3J-hUu" secondAttribute="trailing" type="default" id="bL8-1K-eIK"/>
+                            <constraint firstItem="vyW-Sf-pSM" firstAttribute="baseline" secondItem="LYK-1u-AjM" secondAttribute="baseline" type="default" id="gjr-E2-Vfn"/>
+                            <constraint firstItem="DmR-pC-9z2" firstAttribute="top" secondItem="YTo-Ue-LSd" secondAttribute="top" type="default" id="hY3-kN-geN"/>
+                            <constraint firstItem="DVb-3J-hUu" firstAttribute="top" secondItem="YTo-Ue-LSd" secondAttribute="top" constant="123" id="kek-iN-F6G"/>
                             <constraint firstItem="DmR-pC-9z2" firstAttribute="leading" secondItem="YTo-Ue-LSd" secondAttribute="leading" type="default" id="pj8-aN-dAb"/>
+                            <constraint firstItem="vyW-Sf-pSM" firstAttribute="leading" secondItem="YTo-Ue-LSd" secondAttribute="leading" constant="59" id="uI8-bH-hqe"/>
+                            <constraint firstAttribute="trailing" secondItem="LYK-1u-AjM" secondAttribute="trailing" constant="69" id="uab-wp-thj"/>
                         </constraints>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="playButton" destination="vyW-Sf-pSM" id="cqQ-hb-dCi"/>
+                        <outlet property="recButton" destination="LYK-1u-AjM" id="KDt-Y7-wVF"/>
+                        <outlet property="recStateLabel" destination="ccx-6T-jNt" id="mTu-mw-e5O"/>
+                        <outlet property="start" destination="DVb-3J-hUu" id="6HD-wT-Suh"/>
+                        <outlet property="start1" destination="bKc-RT-bEJ" id="UVF-Uk-iGk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vrx-0d-v2q" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -323,7 +455,15 @@
         <class className="DrumsViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/DrumsViewController.h"/>
             <relationships>
-                <relationship kind="action" name="MagicCarp:"/>
+                <relationship kind="action" name="play"/>
+                <relationship kind="action" name="play1"/>
+                <relationship kind="action" name="playback"/>
+                <relationship kind="action" name="recordning"/>
+                <relationship kind="outlet" name="playButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="recButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="recStateLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="start" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="start1" candidateClass="UIButton"/>
             </relationships>
         </class>
         <class className="GuitarViewController" superclassName="UIViewController">
@@ -338,12 +478,16 @@
         <class className="PianoViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/PianoViewController.h"/>
             <relationships>
-                <relationship kind="action" name="Play:"/>
                 <relationship kind="action" name="play"/>
                 <relationship kind="action" name="play1"/>
-                <relationship kind="action" name="play:"/>
+                <relationship kind="action" name="playAudio:"/>
+                <relationship kind="action" name="recordAudio:"/>
+                <relationship kind="action" name="stop:"/>
+                <relationship kind="outlet" name="playButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="recordButton" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="start" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="start1" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="stopButton" candidateClass="UIButton"/>
             </relationships>
         </class>
     </classes>
