@@ -31,13 +31,19 @@
 		84A020BB16E4F70A00120EF4 /* PianoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A020BA16E4F70A00120EF4 /* PianoViewController.m */; };
 		84A020BE16E4F74500120EF4 /* DrumsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A020BD16E4F74500120EF4 /* DrumsViewController.m */; };
 		84A020C416E535DD00120EF4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A020C316E535DD00120EF4 /* AVFoundation.framework */; };
-		84A020CB16E542FD00120EF4 /* audio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A020CA16E542FD00120EF4 /* audio.mp3 */; };
 		84A020CD16E5600900120EF4 /* 606.wav in Resources */ = {isa = PBXBuildFile; fileRef = 84A020CC16E5600900120EF4 /* 606.wav */; };
 		84A020CF16E624D800120EF4 /* 26522.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A020CE16E624D800120EF4 /* 26522.png */; };
 		84A020D516E628EC00120EF4 /* 606snar.wav in Resources */ = {isa = PBXBuildFile; fileRef = 84A020D416E628EC00120EF4 /* 606snar.wav */; };
 		84A020E216E750BB00120EF4 /* 3272536-retro-microphone-black-background-isolated.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A020E116E750BB00120EF4 /* 3272536-retro-microphone-black-background-isolated.jpg */; };
 		84A020E516E7544800120EF4 /* AudioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A020E416E7544800120EF4 /* AudioViewController.m */; };
 		84A020F016E7768200120EF4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A020EE16E7768100120EF4 /* MainStoryboard.storyboard */; };
+		84A020F416E8BAF800120EF4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A020F316E8BAF800120EF4 /* Default.png */; };
+		84A020F616E8BB2F00120EF4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A020F516E8BB2F00120EF4 /* Default@2x.png */; };
+		84A020F816E8BB3800120EF4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A020F716E8BB3800120EF4 /* Default-568h@2x.png */; };
+		84A0210016E8D9DB00120EF4 /* BeatLoopsIcons.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A020FF16E8D9DB00120EF4 /* BeatLoopsIcons.png */; };
+		84A0210216E8D9ED00120EF4 /* BeatLoopsIcons.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A0210116E8D9ED00120EF4 /* BeatLoopsIcons.png */; };
+		84A0210416E8DA6300120EF4 /* RetinaBeatLoops.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A0210316E8DA6300120EF4 /* RetinaBeatLoops.png */; };
+		84A0210616E8DA7700120EF4 /* RetinaBeatLoops.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A0210516E8DA7700120EF4 /* RetinaBeatLoops.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,7 +90,6 @@
 		84A020BC16E4F74500120EF4 /* DrumsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrumsViewController.h; sourceTree = "<group>"; };
 		84A020BD16E4F74500120EF4 /* DrumsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrumsViewController.m; sourceTree = "<group>"; };
 		84A020C316E535DD00120EF4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		84A020CA16E542FD00120EF4 /* audio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio.mp3; sourceTree = "<group>"; };
 		84A020CC16E5600900120EF4 /* 606.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 606.wav; sourceTree = "<group>"; };
 		84A020CE16E624D800120EF4 /* 26522.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 26522.png; sourceTree = "<group>"; };
 		84A020D016E624DE00120EF4 /* 26522.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 26522.png; sourceTree = "<group>"; };
@@ -93,6 +98,13 @@
 		84A020E316E7544800120EF4 /* AudioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioViewController.h; sourceTree = "<group>"; };
 		84A020E416E7544800120EF4 /* AudioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioViewController.m; sourceTree = "<group>"; };
 		84A020EF16E7768200120EF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		84A020F316E8BAF800120EF4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		84A020F516E8BB2F00120EF4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		84A020F716E8BB3800120EF4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		84A020FF16E8D9DB00120EF4 /* BeatLoopsIcons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BeatLoopsIcons.png; sourceTree = "<group>"; };
+		84A0210116E8D9ED00120EF4 /* BeatLoopsIcons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BeatLoopsIcons.png; sourceTree = "<group>"; };
+		84A0210316E8DA6300120EF4 /* RetinaBeatLoops.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RetinaBeatLoops.png; sourceTree = "<group>"; };
+		84A0210516E8DA7700120EF4 /* RetinaBeatLoops.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RetinaBeatLoops.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +135,11 @@
 		8417625016CE37080033CFE4 = {
 			isa = PBXGroup;
 			children = (
+				84A0210516E8DA7700120EF4 /* RetinaBeatLoops.png */,
+				84A0210116E8D9ED00120EF4 /* BeatLoopsIcons.png */,
+				84A020F716E8BB3800120EF4 /* Default-568h@2x.png */,
+				84A020F516E8BB2F00120EF4 /* Default@2x.png */,
+				84A020F316E8BAF800120EF4 /* Default.png */,
 				84A020D016E624DE00120EF4 /* 26522.png */,
 				84A020C316E535DD00120EF4 /* AVFoundation.framework */,
 				84A0209616E3DDBD00120EF4 /* Pics */,
@@ -179,7 +196,6 @@
 			children = (
 				84A020D416E628EC00120EF4 /* 606snar.wav */,
 				84A020CC16E5600900120EF4 /* 606.wav */,
-				84A020CA16E542FD00120EF4 /* audio.mp3 */,
 				8417626716CE37080033CFE4 /* BeatLoops-Info.plist */,
 				8417626816CE37080033CFE4 /* InfoPlist.strings */,
 				8417626B16CE37080033CFE4 /* main.m */,
@@ -213,6 +229,8 @@
 		84A0209616E3DDBD00120EF4 /* Pics */ = {
 			isa = PBXGroup;
 			children = (
+				84A0210316E8DA6300120EF4 /* RetinaBeatLoops.png */,
+				84A020FF16E8D9DB00120EF4 /* BeatLoopsIcons.png */,
 				84A020E116E750BB00120EF4 /* 3272536-retro-microphone-black-background-isolated.jpg */,
 				84A020CE16E624D800120EF4 /* 26522.png */,
 				84A020B416E4D64C00120EF4 /* drums-icon.png */,
@@ -306,12 +324,16 @@
 				84A020AD16E4CFE200120EF4 /* 20110322022306GarageBand_App.png in Resources */,
 				84A020AF16E4D21100120EF4 /* rockposter21.jpg in Resources */,
 				84A020B516E4D64C00120EF4 /* drums-icon.png in Resources */,
-				84A020CB16E542FD00120EF4 /* audio.mp3 in Resources */,
 				84A020CD16E5600900120EF4 /* 606.wav in Resources */,
 				84A020CF16E624D800120EF4 /* 26522.png in Resources */,
 				84A020D516E628EC00120EF4 /* 606snar.wav in Resources */,
 				84A020E216E750BB00120EF4 /* 3272536-retro-microphone-black-background-isolated.jpg in Resources */,
 				84A020F016E7768200120EF4 /* MainStoryboard.storyboard in Resources */,
+				84A020F416E8BAF800120EF4 /* Default.png in Resources */,
+				84A020F616E8BB2F00120EF4 /* Default@2x.png in Resources */,
+				84A020F816E8BB3800120EF4 /* Default-568h@2x.png in Resources */,
+				84A0210216E8D9ED00120EF4 /* BeatLoopsIcons.png in Resources */,
+				84A0210616E8DA7700120EF4 /* RetinaBeatLoops.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +342,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8417628E16CE37090033CFE4 /* InfoPlist.strings in Resources */,
+				84A0210016E8D9DB00120EF4 /* BeatLoopsIcons.png in Resources */,
+				84A0210416E8DA6300120EF4 /* RetinaBeatLoops.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

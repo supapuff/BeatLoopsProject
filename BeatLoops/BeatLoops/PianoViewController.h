@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <AVFoundation/AVFoundation.h>
 
-int clicked;
+
 
 @interface PianoViewController : UIViewController
 <AVAudioRecorderDelegate, AVAudioPlayerDelegate>
