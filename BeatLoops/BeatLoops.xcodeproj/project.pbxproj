@@ -44,6 +44,18 @@
 		84A0210216E8D9ED00120EF4 /* BeatLoopsIcons.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A0210116E8D9ED00120EF4 /* BeatLoopsIcons.png */; };
 		84A0210416E8DA6300120EF4 /* RetinaBeatLoops.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A0210316E8DA6300120EF4 /* RetinaBeatLoops.png */; };
 		84A0210616E8DA7700120EF4 /* RetinaBeatLoops.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A0210516E8DA7700120EF4 /* RetinaBeatLoops.png */; };
+		84A0210816E9F9FF00120EF4 /* DrumButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A0210716E9F9FF00120EF4 /* DrumButton.png */; };
+		84A0210A16EA12F900120EF4 /* BeatLoops-Loog.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A0210916EA12F900120EF4 /* BeatLoops-Loog.png */; };
+		84A0210C16EDF66300120EF4 /* 808lowconga.wav in Resources */ = {isa = PBXBuildFile; fileRef = 84A0210B16EDF66300120EF4 /* 808lowconga.wav */; };
+		84A0210E16EDF6B200120EF4 /* Bt0a0a7.wav in Resources */ = {isa = PBXBuildFile; fileRef = 84A0210D16EDF6B200120EF4 /* Bt0a0a7.wav */; };
+		84A0211016EDF6CC00120EF4 /* L_TOM15C_1.WAV in Resources */ = {isa = PBXBuildFile; fileRef = 84A0210F16EDF6CC00120EF4 /* L_TOM15C_1.WAV */; };
+		84A0211216EDF6E200120EF4 /* MA.WAV in Resources */ = {isa = PBXBuildFile; fileRef = 84A0211116EDF6E200120EF4 /* MA.WAV */; };
+		84A0211416EDF6FF00120EF4 /* MC75.WAV in Resources */ = {isa = PBXBuildFile; fileRef = 84A0211316EDF6FF00120EF4 /* MC75.WAV */; };
+		84A0211616EDF71F00120EF4 /* pop.wav in Resources */ = {isa = PBXBuildFile; fileRef = 84A0211516EDF71E00120EF4 /* pop.wav */; };
+		84A0211816EDF75100120EF4 /* TR808CP.wav in Resources */ = {isa = PBXBuildFile; fileRef = 84A0211716EDF75000120EF4 /* TR808CP.wav */; };
+		84A0211A16EDF77900120EF4 /* 808cymbal2.WAV in Resources */ = {isa = PBXBuildFile; fileRef = 84A0211916EDF77900120EF4 /* 808cymbal2.WAV */; };
+		84A0211C16EDF79600120EF4 /* 606chat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 84A0211B16EDF79500120EF4 /* 606chat.wav */; };
+		84A0211E16EDF7A800120EF4 /* 606mhat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 84A0211D16EDF7A800120EF4 /* 606mhat.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +117,18 @@
 		84A0210116E8D9ED00120EF4 /* BeatLoopsIcons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BeatLoopsIcons.png; sourceTree = "<group>"; };
 		84A0210316E8DA6300120EF4 /* RetinaBeatLoops.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RetinaBeatLoops.png; sourceTree = "<group>"; };
 		84A0210516E8DA7700120EF4 /* RetinaBeatLoops.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RetinaBeatLoops.png; sourceTree = "<group>"; };
+		84A0210716E9F9FF00120EF4 /* DrumButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DrumButton.png; sourceTree = "<group>"; };
+		84A0210916EA12F900120EF4 /* BeatLoops-Loog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BeatLoops-Loog.png"; sourceTree = "<group>"; };
+		84A0210B16EDF66300120EF4 /* 808lowconga.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 808lowconga.wav; sourceTree = "<group>"; };
+		84A0210D16EDF6B200120EF4 /* Bt0a0a7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Bt0a0a7.wav; sourceTree = "<group>"; };
+		84A0210F16EDF6CC00120EF4 /* L_TOM15C_1.WAV */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = L_TOM15C_1.WAV; sourceTree = "<group>"; };
+		84A0211116EDF6E200120EF4 /* MA.WAV */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = MA.WAV; sourceTree = "<group>"; };
+		84A0211316EDF6FF00120EF4 /* MC75.WAV */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = MC75.WAV; sourceTree = "<group>"; };
+		84A0211516EDF71E00120EF4 /* pop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pop.wav; sourceTree = "<group>"; };
+		84A0211716EDF75000120EF4 /* TR808CP.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = TR808CP.wav; sourceTree = "<group>"; };
+		84A0211916EDF77900120EF4 /* 808cymbal2.WAV */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 808cymbal2.WAV; sourceTree = "<group>"; };
+		84A0211B16EDF79500120EF4 /* 606chat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 606chat.wav; sourceTree = "<group>"; };
+		84A0211D16EDF7A800120EF4 /* 606mhat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 606mhat.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +218,16 @@
 		8417626616CE37080033CFE4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				84A0211D16EDF7A800120EF4 /* 606mhat.wav */,
+				84A0211B16EDF79500120EF4 /* 606chat.wav */,
+				84A0211916EDF77900120EF4 /* 808cymbal2.WAV */,
+				84A0211716EDF75000120EF4 /* TR808CP.wav */,
+				84A0211516EDF71E00120EF4 /* pop.wav */,
+				84A0211316EDF6FF00120EF4 /* MC75.WAV */,
+				84A0211116EDF6E200120EF4 /* MA.WAV */,
+				84A0210F16EDF6CC00120EF4 /* L_TOM15C_1.WAV */,
+				84A0210D16EDF6B200120EF4 /* Bt0a0a7.wav */,
+				84A0210B16EDF66300120EF4 /* 808lowconga.wav */,
 				84A020D416E628EC00120EF4 /* 606snar.wav */,
 				84A020CC16E5600900120EF4 /* 606.wav */,
 				8417626716CE37080033CFE4 /* BeatLoops-Info.plist */,
@@ -229,6 +263,8 @@
 		84A0209616E3DDBD00120EF4 /* Pics */ = {
 			isa = PBXGroup;
 			children = (
+				84A0210916EA12F900120EF4 /* BeatLoops-Loog.png */,
+				84A0210716E9F9FF00120EF4 /* DrumButton.png */,
 				84A0210316E8DA6300120EF4 /* RetinaBeatLoops.png */,
 				84A020FF16E8D9DB00120EF4 /* BeatLoopsIcons.png */,
 				84A020E116E750BB00120EF4 /* 3272536-retro-microphone-black-background-isolated.jpg */,
@@ -334,6 +370,16 @@
 				84A020F816E8BB3800120EF4 /* Default-568h@2x.png in Resources */,
 				84A0210216E8D9ED00120EF4 /* BeatLoopsIcons.png in Resources */,
 				84A0210616E8DA7700120EF4 /* RetinaBeatLoops.png in Resources */,
+				84A0210C16EDF66300120EF4 /* 808lowconga.wav in Resources */,
+				84A0210E16EDF6B200120EF4 /* Bt0a0a7.wav in Resources */,
+				84A0211016EDF6CC00120EF4 /* L_TOM15C_1.WAV in Resources */,
+				84A0211216EDF6E200120EF4 /* MA.WAV in Resources */,
+				84A0211416EDF6FF00120EF4 /* MC75.WAV in Resources */,
+				84A0211616EDF71F00120EF4 /* pop.wav in Resources */,
+				84A0211816EDF75100120EF4 /* TR808CP.wav in Resources */,
+				84A0211A16EDF77900120EF4 /* 808cymbal2.WAV in Resources */,
+				84A0211C16EDF79600120EF4 /* 606chat.wav in Resources */,
+				84A0211E16EDF7A800120EF4 /* 606mhat.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +390,8 @@
 				8417628E16CE37090033CFE4 /* InfoPlist.strings in Resources */,
 				84A0210016E8D9DB00120EF4 /* BeatLoopsIcons.png in Resources */,
 				84A0210416E8DA6300120EF4 /* RetinaBeatLoops.png in Resources */,
+				84A0210816E9F9FF00120EF4 /* DrumButton.png in Resources */,
+				84A0210A16EA12F900120EF4 /* BeatLoops-Loog.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

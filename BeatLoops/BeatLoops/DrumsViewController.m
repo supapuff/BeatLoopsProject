@@ -11,15 +11,21 @@
 
 @interface DrumsViewController ()
 
+
+
 @end
 
 @implementation DrumsViewController
 @synthesize recButton, playButton;
 
+    
+
+
+
+
 - (IBAction)play {
-    //if(clicked == 0) {
-    //    clicked = 1;
-    NSURL *url = [NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/606.wav", [[NSBundle mainBundle] resourcePath]]];
+    
+    NSURL *url = [NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/606.wav",[[NSBundle mainBundle] resourcePath]]];
     
     NSError *error;
     audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:&error];
@@ -28,20 +34,13 @@
     audioPlayer.numberOfLoops = 0;
     
     [audioPlayer play];
-    //[start setTitle:@"Stop" forState:UIControlStateNormal];
-    //} else {
-    //    [audioPlayer stop];
-    //    clicked = 0;
-    //    [start setTitle:@"Start" forState:UIControlStateNormal];
-    
     
 }
-//}
+
 
 - (IBAction)play1 {
-    //if(clicked == 0) {
-    //    clicked = 1;
-    NSURL *url = [NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/606snar.wav", [[NSBundle mainBundle] resourcePath]]];
+    
+    NSURL *url = [NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/606snar.wav",[[NSBundle mainBundle] resourcePath]]];
     
     NSError *error;
     audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:&error];
@@ -50,15 +49,161 @@
     audioPlayer.numberOfLoops = 0;
     
     [audioPlayer play];
-    //        [start setTitle:@"Stop" forState:UIControlStateNormal];
-    //    } else {
-    //        [audioPlayer stop];
-    //        clicked = 0;
-    //        [start setTitle:@"Start" forState:UIControlStateNormal];
-    
     
 }
-//}
+
+
+- (IBAction)play2 {
+    
+    NSURL *url = [NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/606chat.wav",[[NSBundle mainBundle] resourcePath]]];
+    
+    NSError *error;
+    audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:&error];
+    
+    NSLog(@"audio Loaded");
+    audioPlayer.numberOfLoops = 0;
+    
+    [audioPlayer play];
+    
+}
+
+
+- (IBAction)play3 {
+    
+    NSURL *url = [NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/TR808CP.wav",[[NSBundle mainBundle] resourcePath]]];
+    
+    NSError *error;
+    audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:&error];
+    
+    NSLog(@"audio Loaded");
+    audioPlayer.numberOfLoops = 0;
+    
+    [audioPlayer play];
+    
+}
+
+
+- (IBAction)play4 {
+    
+    NSURL *url = [NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/pop.wav",[[NSBundle mainBundle] resourcePath]]];
+    
+    NSError *error;
+    audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:&error];
+    
+    NSLog(@"audio Loaded");
+    audioPlayer.numberOfLoops = 0;
+    
+    [audioPlayer play];
+    
+}
+
+
+- (IBAction)play5 {
+    
+    NSURL *url = [NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/MC75.WAV",[[NSBundle mainBundle] resourcePath]]];
+    
+    NSError *error;
+    audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:&error];
+    
+    NSLog(@"audio Loaded");
+    audioPlayer.numberOfLoops = 0;
+    
+    [audioPlayer play];
+    
+}
+
+
+- (IBAction)play6 {
+    
+    NSURL *url = [NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/MA.WAV",[[NSBundle mainBundle] resourcePath]]];
+    
+    NSError *error;
+    audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:&error];
+    
+    NSLog(@"audio Loaded");
+    audioPlayer.numberOfLoops = 0;
+    
+    [audioPlayer play];
+    
+}
+
+
+- (IBAction)play7 {
+    
+    NSURL *url = [NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/L_TOM15C_1.WAV",[[NSBundle mainBundle] resourcePath]]];
+    
+    NSError *error;
+    audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:&error];
+    
+    NSLog(@"audio Loaded");
+    audioPlayer.numberOfLoops = 0;
+    
+    [audioPlayer play];
+    
+}
+
+
+- (IBAction)play8 {
+    
+    NSURL *url = [NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/Bt0a0a7.wav",[[NSBundle mainBundle] resourcePath]]];
+    
+    NSError *error;
+    audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:&error];
+    
+    NSLog(@"audio Loaded");
+    audioPlayer.numberOfLoops = 0;
+    
+    [audioPlayer play];
+    
+}
+
+
+- (IBAction)play9 {
+    
+    NSURL *url = [NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/808lowconga.wav",[[NSBundle mainBundle] resourcePath]]];
+    
+    NSError *error;
+    audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:&error];
+    
+    NSLog(@"audio Loaded");
+    audioPlayer.numberOfLoops = 0;
+    
+    [audioPlayer play];
+    
+}
+
+
+- (IBAction)play10 {
+    
+    NSURL *url = [NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/606mhat.wav",[[NSBundle mainBundle] resourcePath]]];
+    
+    NSError *error;
+    audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:&error];
+    
+    NSLog(@"audio Loaded");
+    audioPlayer.numberOfLoops = 0;
+    
+    [audioPlayer play];
+    
+}
+
+
+- (IBAction)play11 {
+    
+    NSURL *url = [NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/808cymbal2.WAV",[[NSBundle mainBundle] resourcePath]]];
+    
+    NSError *error;
+    audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:&error];
+    
+    NSLog(@"audio Loaded");
+    audioPlayer.numberOfLoops = 0;
+    
+    [audioPlayer play];
+    
+}
+
+
+
 
 - (IBAction)recordning{
     if(isNotRecording){
@@ -111,6 +256,9 @@
 
 - (void)viewDidLoad
 {
+    
+    
+
     isNotRecording = YES;
     playButton.hidden = YES;
     recStateLabel.text =@"Not Recording";
