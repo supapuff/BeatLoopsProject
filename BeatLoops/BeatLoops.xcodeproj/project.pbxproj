@@ -104,7 +104,6 @@
 		84A020C316E535DD00120EF4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		84A020CC16E5600900120EF4 /* 606.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 606.wav; sourceTree = "<group>"; };
 		84A020CE16E624D800120EF4 /* 26522.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 26522.png; sourceTree = "<group>"; };
-		84A020D016E624DE00120EF4 /* 26522.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 26522.png; sourceTree = "<group>"; };
 		84A020D416E628EC00120EF4 /* 606snar.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 606snar.wav; sourceTree = "<group>"; };
 		84A020E116E750BB00120EF4 /* 3272536-retro-microphone-black-background-isolated.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3272536-retro-microphone-black-background-isolated.jpg"; sourceTree = "<group>"; };
 		84A020E316E7544800120EF4 /* AudioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioViewController.h; sourceTree = "<group>"; };
@@ -164,7 +163,6 @@
 				84A020F716E8BB3800120EF4 /* Default-568h@2x.png */,
 				84A020F516E8BB2F00120EF4 /* Default@2x.png */,
 				84A020F316E8BAF800120EF4 /* Default.png */,
-				84A020D016E624DE00120EF4 /* 26522.png */,
 				84A020C316E535DD00120EF4 /* AVFoundation.framework */,
 				84A0209616E3DDBD00120EF4 /* Pics */,
 				8417626516CE37080033CFE4 /* BeatLoops */,

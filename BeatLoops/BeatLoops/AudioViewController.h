@@ -15,7 +15,13 @@ int clicked;
 <AVAudioRecorderDelegate, AVAudioPlayerDelegate>
 {
     AVAudioPlayer *audioPlayer;
-   
+
+    IBOutlet UIButton *recordButton;
+    IBOutlet UIButton *playButton;
+    IBOutlet UILabel *stopButton;
+    
+    //AVAudioRecorder *recorder;
+    
 }
 
 @property (strong, nonatomic) AVAudioRecorder *audioRecorder;
