@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		840933F416F1C958001AA1BD /* Info.png in Resources */ = {isa = PBXBuildFile; fileRef = 840933F316F1C958001AA1BD /* Info.png */; };
+		840933F616F1CB79001AA1BD /* maps-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 840933F516F1CB79001AA1BD /* maps-icon.png */; };
+		840933F816F1CCBE001AA1BD /* Vintage Microphone-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 840933F716F1CCBD001AA1BD /* Vintage Microphone-1.png */; };
+		840933FA16F1CE32001AA1BD /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 840933F916F1CE32001AA1BD /* Background.png */; };
+		840933FD16F1D43D001AA1BD /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840933FC16F1D43D001AA1BD /* MapViewController.m */; };
+		8409340416F1D522001AA1BD /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8409340316F1D522001AA1BD /* LocationViewController.m */; };
+		8409340716F1D706001AA1BD /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8409340616F1D706001AA1BD /* DetailViewController.m */; };
 		8417626016CE37080033CFE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8417625F16CE37080033CFE4 /* UIKit.framework */; };
 		8417626216CE37080033CFE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8417626116CE37080033CFE4 /* Foundation.framework */; };
 		8417626416CE37080033CFE4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8417626316CE37080033CFE4 /* CoreGraphics.framework */; };
@@ -22,7 +29,6 @@
 		8417628616CE37090033CFE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8417626116CE37080033CFE4 /* Foundation.framework */; };
 		8417628E16CE37090033CFE4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8417628C16CE37090033CFE4 /* InfoPlist.strings */; };
 		8417629116CE37090033CFE4 /* BeatLoopsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8417629016CE37090033CFE4 /* BeatLoopsTests.m */; };
-		8417629C16CE3E3A0033CFE4 /* TapButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = 8417629B16CE3E3A0033CFE4 /* TapButtons.m */; };
 		84A0209916E3DE5D00120EF4 /* Fire-Heart-Wallpaper-HD.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A0209816E3DE5D00120EF4 /* Fire-Heart-Wallpaper-HD.jpg */; };
 		84A020AB16E4CF7500120EF4 /* audio-keyboard_illustration.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A020AA16E4CF7500120EF4 /* audio-keyboard_illustration.png */; };
 		84A020AD16E4CFE200120EF4 /* 20110322022306GarageBand_App.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A020AC16E4CFE200120EF4 /* 20110322022306GarageBand_App.png */; };
@@ -69,6 +75,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		840933F316F1C958001AA1BD /* Info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Info.png; sourceTree = "<group>"; };
+		840933F516F1CB79001AA1BD /* maps-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "maps-icon.png"; sourceTree = "<group>"; };
+		840933F716F1CCBD001AA1BD /* Vintage Microphone-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Vintage Microphone-1.png"; sourceTree = "<group>"; };
+		840933F916F1CE32001AA1BD /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		840933FB16F1D43D001AA1BD /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		840933FC16F1D43D001AA1BD /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		8409340216F1D522001AA1BD /* LocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationViewController.h; sourceTree = "<group>"; };
+		8409340316F1D522001AA1BD /* LocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationViewController.m; sourceTree = "<group>"; };
+		8409340516F1D706001AA1BD /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		8409340616F1D706001AA1BD /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		8417625B16CE37080033CFE4 /* BeatLoops.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeatLoops.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8417625F16CE37080033CFE4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8417626116CE37080033CFE4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -90,8 +106,6 @@
 		8417628D16CE37090033CFE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8417628F16CE37090033CFE4 /* BeatLoopsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeatLoopsTests.h; sourceTree = "<group>"; };
 		8417629016CE37090033CFE4 /* BeatLoopsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeatLoopsTests.m; sourceTree = "<group>"; };
-		8417629A16CE3E3A0033CFE4 /* TapButtons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapButtons.h; sourceTree = "<group>"; };
-		8417629B16CE3E3A0033CFE4 /* TapButtons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapButtons.m; sourceTree = "<group>"; };
 		84A0209816E3DE5D00120EF4 /* Fire-Heart-Wallpaper-HD.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Fire-Heart-Wallpaper-HD.jpg"; sourceTree = "<group>"; };
 		84A020AA16E4CF7500120EF4 /* audio-keyboard_illustration.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "audio-keyboard_illustration.png"; sourceTree = "<group>"; };
 		84A020AC16E4CFE200120EF4 /* 20110322022306GarageBand_App.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 20110322022306GarageBand_App.png; sourceTree = "<group>"; };
@@ -198,14 +212,16 @@
 				84A020EE16E7768100120EF4 /* MainStoryboard.storyboard */,
 				8417626E16CE37080033CFE4 /* MAppDelegate.h */,
 				8417626F16CE37080033CFE4 /* MAppDelegate.m */,
+				840933FB16F1D43D001AA1BD /* MapViewController.h */,
+				840933FC16F1D43D001AA1BD /* MapViewController.m */,
+				8409340516F1D706001AA1BD /* DetailViewController.h */,
+				8409340616F1D706001AA1BD /* DetailViewController.m */,
 				84A020BC16E4F74500120EF4 /* DrumsViewController.h */,
 				84A020BD16E4F74500120EF4 /* DrumsViewController.m */,
 				84A020E316E7544800120EF4 /* AudioViewController.h */,
 				84A020E416E7544800120EF4 /* AudioViewController.m */,
 				84A020B916E4F70A00120EF4 /* PianoViewController.h */,
 				84A020BA16E4F70A00120EF4 /* PianoViewController.m */,
-				8417629A16CE3E3A0033CFE4 /* TapButtons.h */,
-				8417629B16CE3E3A0033CFE4 /* TapButtons.m */,
 				8417627A16CE37080033CFE4 /* MViewController.h */,
 				8417627B16CE37080033CFE4 /* MViewController.m */,
 				8417626616CE37080033CFE4 /* Supporting Files */,
@@ -216,6 +232,8 @@
 		8417626616CE37080033CFE4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8409340216F1D522001AA1BD /* LocationViewController.h */,
+				8409340316F1D522001AA1BD /* LocationViewController.m */,
 				84A0211D16EDF7A800120EF4 /* 606mhat.wav */,
 				84A0211B16EDF79500120EF4 /* 606chat.wav */,
 				84A0211916EDF77900120EF4 /* 808cymbal2.WAV */,
@@ -261,6 +279,10 @@
 		84A0209616E3DDBD00120EF4 /* Pics */ = {
 			isa = PBXGroup;
 			children = (
+				840933F916F1CE32001AA1BD /* Background.png */,
+				840933F716F1CCBD001AA1BD /* Vintage Microphone-1.png */,
+				840933F516F1CB79001AA1BD /* maps-icon.png */,
+				840933F316F1C958001AA1BD /* Info.png */,
 				84A0210916EA12F900120EF4 /* BeatLoops-Loog.png */,
 				84A0210716E9F9FF00120EF4 /* DrumButton.png */,
 				84A0210316E8DA6300120EF4 /* RetinaBeatLoops.png */,
@@ -378,6 +400,10 @@
 				84A0211A16EDF77900120EF4 /* 808cymbal2.WAV in Resources */,
 				84A0211C16EDF79600120EF4 /* 606chat.wav in Resources */,
 				84A0211E16EDF7A800120EF4 /* 606mhat.wav in Resources */,
+				840933F416F1C958001AA1BD /* Info.png in Resources */,
+				840933F616F1CB79001AA1BD /* maps-icon.png in Resources */,
+				840933F816F1CCBE001AA1BD /* Vintage Microphone-1.png in Resources */,
+				840933FA16F1CE32001AA1BD /* Background.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,10 +445,12 @@
 				8417626C16CE37080033CFE4 /* main.m in Sources */,
 				8417627016CE37080033CFE4 /* MAppDelegate.m in Sources */,
 				8417627C16CE37080033CFE4 /* MViewController.m in Sources */,
-				8417629C16CE3E3A0033CFE4 /* TapButtons.m in Sources */,
 				84A020BB16E4F70A00120EF4 /* PianoViewController.m in Sources */,
 				84A020BE16E4F74500120EF4 /* DrumsViewController.m in Sources */,
 				84A020E516E7544800120EF4 /* AudioViewController.m in Sources */,
+				840933FD16F1D43D001AA1BD /* MapViewController.m in Sources */,
+				8409340416F1D522001AA1BD /* LocationViewController.m in Sources */,
+				8409340716F1D706001AA1BD /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
