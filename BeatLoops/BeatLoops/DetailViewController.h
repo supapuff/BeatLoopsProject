@@ -7,10 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "LocationViewController.h"
+#import "Location.h"
 
 @interface DetailViewController : UIViewController <MKMapViewDelegate>
 
+
+
+
+
+@property (strong, nonatomic) UIWindow *window;
 @property (nonatomic, strong) Location * city;
 @property (weak, nonatomic) IBOutlet MKMapView *mapView;
 

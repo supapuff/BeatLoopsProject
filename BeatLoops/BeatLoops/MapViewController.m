@@ -8,8 +8,8 @@
 
 #import "MViewController.h"
 
-#import "DetailViewController.h"
-#import "LocationViewController.h"
+#import "MapViewController.h"
+#import "Location.h"
 
 /*
  
@@ -19,24 +19,33 @@
  
  */
 
-@interface MViewController () {
+@interface MapViewController () {
     
 }
 @end
 
-@implementation MViewController
+@implementation MViewController 
+
+- (IBAction)City:(id)sender {
+}
+
+
+
+
+    
 
 
     - (void)awakeFromNib
 {
     [super awakeFromNib];
     
-    Location * halmstad = [[City alloc] init];
-    london.latitude = 56.677414;
-    london.longitude = 12.857536;
-    
-
+    Location *Halmstad = [[Location alloc] init];
+    Halmstad.latitude = 56.677414;
+    Halmstad.longitude = 12.857536;
 }
+
+
+
 
 - (void)viewDidLoad
 {
@@ -46,35 +55,34 @@
 }
 
 - (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
+{    [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
 
 #pragma mark - Table View
 
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
-{
-    return 1;
-}
+//- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+//{
+//    return 1;
+//}
 
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
-{
-    //return [self.cities count];
+//- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+//{
+//    return [self.cities count];
     // self.cities.count;
     // [[self cities] count];
-}
+//}
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
+//- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+//{
+  //  UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
     
     //Location * city = self.cities[indexPath.row];
-   // cell.textLabel.text = city.name;
-    //    [cell.textLabel setText:city.name];
+    //cell.textLabel.text = city.name;
+   //[cell.textLabel setText:city.name];
     
-    return cell;
-}
+    //return cell;
+//}
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {

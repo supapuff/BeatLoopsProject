@@ -7,13 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Location.h"
 
-
-@interface DetailViewController : UIViewController <MKMapViewDelegate>
+@interface MapViewController : UIViewController <MKMapViewDelegate> {
 
 IBOutlet UIButton *city;
+    
+}
 
-@property (nonatomic, strong) Location *city;
+@property (nonatomic, retain) NSArray *city;
 @property (weak, nonatomic) IBOutlet MKMapView *mapView;
+
+
+//- (IBAction) *city;
 
 @end

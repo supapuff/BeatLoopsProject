@@ -1,12 +1,12 @@
 //
-//  LocationViewController.m
+//  Location.m
 //  BeatLoops
 //
-//  Created by admin on 3/14/13.
+//  Created by admin on 3/15/13.
 //  Copyright (c) 2013 Adam Wilsby Wahlberg. All rights reserved.
 //
 
-#import "LocationViewController.h"
+#import "Location.h"
 
 @interface Location()
 

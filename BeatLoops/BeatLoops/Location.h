@@ -1,8 +1,8 @@
 //
-//  LocationViewController.h
+//  Location.h
 //  BeatLoops
 //
-//  Created by admin on 3/14/13.
+//  Created by admin on 3/15/13.
 //  Copyright (c) 2013 Adam Wilsby Wahlberg. All rights reserved.
 //
 
@@ -11,8 +11,8 @@
 
 @interface Location : NSObject <MKAnnotation>
 
-@property (nonatomic, strong) NSString *name;
-@property (nonatomic, strong) NSString *annotationDescription;
+@property (nonatomic, strong) NSString * name;
+@property (nonatomic, strong) NSString * annotationDescription;
 @property (nonatomic) double longitude;
 @property (nonatomic) double latitude;
 

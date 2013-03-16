@@ -12,8 +12,8 @@
 		840933F816F1CCBE001AA1BD /* Vintage Microphone-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 840933F716F1CCBD001AA1BD /* Vintage Microphone-1.png */; };
 		840933FA16F1CE32001AA1BD /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 840933F916F1CE32001AA1BD /* Background.png */; };
 		840933FD16F1D43D001AA1BD /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840933FC16F1D43D001AA1BD /* MapViewController.m */; };
-		8409340416F1D522001AA1BD /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8409340316F1D522001AA1BD /* LocationViewController.m */; };
 		8409340716F1D706001AA1BD /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8409340616F1D706001AA1BD /* DetailViewController.m */; };
+		8409340E16F355F2001AA1BD /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 8409340D16F355F2001AA1BD /* Location.m */; };
 		8417626016CE37080033CFE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8417625F16CE37080033CFE4 /* UIKit.framework */; };
 		8417626216CE37080033CFE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8417626116CE37080033CFE4 /* Foundation.framework */; };
 		8417626416CE37080033CFE4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8417626316CE37080033CFE4 /* CoreGraphics.framework */; };
@@ -81,10 +81,10 @@
 		840933F916F1CE32001AA1BD /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
 		840933FB16F1D43D001AA1BD /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		840933FC16F1D43D001AA1BD /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
-		8409340216F1D522001AA1BD /* LocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationViewController.h; sourceTree = "<group>"; };
-		8409340316F1D522001AA1BD /* LocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationViewController.m; sourceTree = "<group>"; };
 		8409340516F1D706001AA1BD /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		8409340616F1D706001AA1BD /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		8409340C16F355F2001AA1BD /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		8409340D16F355F2001AA1BD /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
 		8417625B16CE37080033CFE4 /* BeatLoops.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeatLoops.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8417625F16CE37080033CFE4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8417626116CE37080033CFE4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -232,9 +232,9 @@
 		8417626616CE37080033CFE4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8409340216F1D522001AA1BD /* LocationViewController.h */,
-				8409340316F1D522001AA1BD /* LocationViewController.m */,
 				84A0211D16EDF7A800120EF4 /* 606mhat.wav */,
+				8409340C16F355F2001AA1BD /* Location.h */,
+				8409340D16F355F2001AA1BD /* Location.m */,
 				84A0211B16EDF79500120EF4 /* 606chat.wav */,
 				84A0211916EDF77900120EF4 /* 808cymbal2.WAV */,
 				84A0211716EDF75000120EF4 /* TR808CP.wav */,
@@ -449,8 +449,8 @@
 				84A020BE16E4F74500120EF4 /* DrumsViewController.m in Sources */,
 				84A020E516E7544800120EF4 /* AudioViewController.m in Sources */,
 				840933FD16F1D43D001AA1BD /* MapViewController.m in Sources */,
-				8409340416F1D522001AA1BD /* LocationViewController.m in Sources */,
 				8409340716F1D706001AA1BD /* DetailViewController.m in Sources */,
+				8409340E16F355F2001AA1BD /* Location.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

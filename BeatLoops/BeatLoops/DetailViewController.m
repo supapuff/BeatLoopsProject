@@ -21,7 +21,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    //    NSLog(@"City: %@, longitude: %f, latitude: %f", self.city.name, self.city.longitude, self.city.latitude);
+        NSLog(@"City: %@, longitude: %f, latitude: %f", self.city.name, self.city.longitude, self.city.latitude);
 }
 
 - (void)mapViewDidFinishLoadingMap:(MKMapView *)mapView
