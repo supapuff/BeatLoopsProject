@@ -1,18 +1,20 @@
 //
-//  MapViewController.m
+//  LocationViewController.m
 //  BeatLoops
 //
 //  Created by admin on 3/16/13.
 //  Copyright (c) 2013 Adam Wilsby Wahlberg. All rights reserved.
 //
 
-#import "MapViewController.h"
+#import "LocationViewController.h"
 
-@interface MapViewController ()
+
+@interface LocationViewController ()
 
 @end
 
-@implementation MapViewController
+@implementation LocationViewController
+@synthesize mapView = _mapView;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -26,7 +28,17 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [self.mapView.delegate self];
+    [self.mapView setShowsUserLocation:YES];
 	// Do any additional setup after loading the view.
+}
+
+- (void) mapView:(MKMapView *)mapView didUpdateUserLocation:(MKUserLocation *)userLocation
+{
+    CLLocationCoordinate2D loc = [userLocation coordinate];
+    MKCoordinateRegion region = MKCoordinateRegionMakeWithDistance(loc, 500,500);
+    [self.mapView setRegion:region animated:YES];
+    
 }
 
 - (void)didReceiveMemoryWarning
